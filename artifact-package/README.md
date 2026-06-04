@@ -1,0 +1,48 @@
+---
+type: artifact-package
+status: active
+source_note: "[[Codex Role Plugins as Vertical Agent Templates]]"
+source_url: "https://x.com/OpenAI/status/2061887890607755498"
+github_repo: "https://github.com/vinayclawagent-art/vertical-agent-template-kit"
+score: 9
+artifact_tracks: [prototype, infographic, skill]
+improvement_cadence: nightly
+last_improved: 2026-06-04
+tags: [artifact-package, x-intel, agent-workflows]
+---
+
+# Artifact Package: Vertical Agent Template Kit
+
+Source: [[Codex Role Plugins as Vertical Agent Templates]]
+
+## Why this matters
+OpenAI validating role-specific Codex plugins is a strong product signal for packaging agent workflows by buyer role instead of model capability.
+
+## Artifact score
+**9/10** — high because it is repeatable, agent-building relevant, and can become visible workflow infrastructure for VinClawLabs.
+
+## Generated artifacts
+- Prototype: [[Vertical Agent Template Kit/role-template-card]]
+- Infographic: [[Vertical Agent Template Kit Workflow]]
+- Skill draft: [[vertical-agent-template-kit/SKILL]]
+- Improvement loop: [[Vertical Agent Template Kit Loop]]
+
+## Prototype brief
+A compact kit for turning a reusable role workflow into a vertical agent template with inputs, boundaries, review criteria, and launch wedge.
+
+## Infographic brief
+Show the workflow from source signal to repeatable agent/product artifact.
+
+## Skill candidate
+Drafted as `vertical-agent-template-kit`. Not promoted yet because it overlaps with existing Hermes planning/product/artifact skills and needs one more real-world reuse pass.
+
+## GitHub repo
+https://github.com/vinayclawagent-art/vertical-agent-template-kit
+
+## Improvement backlog
+- Add one worked example from an active VinClawLabs project.
+- Convert the markdown prototype into a small interactive HTML checklist if usage repeats.
+- Decide whether to merge the skill draft into an existing skill or promote it.
+
+## Change log
+- 2026-06-04: Created nightly package, prototype, skill draft, loop, and GitHub repo sync.
