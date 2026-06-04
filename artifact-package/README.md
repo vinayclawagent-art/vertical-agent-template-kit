@@ -23,6 +23,7 @@ OpenAI validating role-specific Codex plugins is a strong product signal for pac
 
 ## Generated artifacts
 - Prototype: [[Vertical Agent Template Kit/role-template-card]]
+- Worked example: [[Vertical Agent Template Kit/Worked Example - Mission Control Release QA Agent]]
 - Infographic: [[Vertical Agent Template Kit Workflow]]
 - Skill draft: [[vertical-agent-template-kit/SKILL]]
 - Improvement loop: [[Vertical Agent Template Kit Loop]]
@@ -40,9 +41,10 @@ Drafted as `vertical-agent-template-kit`. Not promoted yet because it overlaps w
 https://github.com/vinayclawagent-art/vertical-agent-template-kit
 
 ## Improvement backlog
-- Add one worked example from an active VinClawLabs project.
+- Add one worked example from an active VinClawLabs project. ✅ Done with [[Vertical Agent Template Kit/Worked Example - Mission Control Release QA Agent]].
 - Convert the markdown prototype into a small interactive HTML checklist if usage repeats.
 - Decide whether to merge the skill draft into an existing skill or promote it.
 
 ## Change log
 - 2026-06-04: Created nightly package, prototype, skill draft, loop, and GitHub repo sync.
+- 2026-06-04: Added the Mission Control release QA agent worked example as the first concrete vertical template fill-in.
