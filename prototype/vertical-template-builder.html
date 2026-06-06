@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vertical Agent Template Builder</title>
+  <style>
+    :root { color-scheme: dark; --bg:#07111f; --panel:#111b2d; --ink:#edf5ff; --muted:#9db1cc; --accent:#7cf7c8; --line:#263a5e; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter, ui-sans-serif, system-ui; background:linear-gradient(135deg,#07111f,#14213d); color:var(--ink); }
+    main { max-width:1100px; margin:auto; padding:28px; }
+    h1 { margin:0; font-size:clamp(30px,6vw,58px); line-height:.95; }
+    p { color:var(--muted); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:14px; margin-top:18px; }
+    .card { background:rgba(17,27,45,.9); border:1px solid var(--line); border-radius:18px; padding:18px; box-shadow:0 20px 50px rgba(0,0,0,.25); }
+    label { display:block; margin-top:12px; color:var(--muted); font-size:13px; }
+    input, textarea { width:100%; border:1px solid #314669; background:#07111f; color:var(--ink); border-radius:12px; padding:10px; }
+    textarea { min-height:80px; }
+    button { margin-top:14px; border:0; border-radius:999px; padding:11px 16px; background:var(--accent); color:#06111a; font-weight:800; cursor:pointer; }
+    pre { white-space:pre-wrap; min-height:360px; background:#050a13; border:1px solid var(--line); border-radius:14px; padding:14px; }
+    .pill { display:inline-block; border:1px solid #31506c; border-radius:999px; padding:5px 9px; color:#b6d3ff; font-size:12px; margin-right:4px; }
+  </style>
+</head>
+<body>
+<main>
+  <span class="pill">Codex Role Plugins → Vertical Agent Template</span>
+  <h1>Vertical Agent Template Builder</h1>
+  <p>Turn a vague “agent role” into a reusable, evidence-seeking task card before promoting it into a plugin/skill.</p>
+  <section class="grid">
+    <div class="card">
+      <h2>Inputs</h2>
+      <label>Vertical / role</label><input id="role" value="Release QA Agent" />
+      <label>Primary workflow</label><input id="workflow" value="Verify release notes against merged PRs and shipped UI" />
+      <label>Evidence required</label><textarea id="evidence">PR list, changelog diff, screenshots, failed-check logs, final ship/no-ship decision</textarea>
+      <label>Guardrails</label><textarea id="guardrails">Do not invent test evidence. Escalate if release branch, screenshots, or logs are missing.</textarea>
+      <button onclick="build()">Generate template card</button>
+    </div>
+    <div class="card">
+      <h2>Copyable output</h2>
+      <pre id="out"></pre>
+    </div>
+  </section>
+</main>
+<script>
+const ids=['role','workflow','evidence','guardrails'];
+ids.forEach(id=>{const el=document.getElementById(id); el.value=localStorage.getItem('vertical-template-builder-'+id)||el.value; el.oninput=()=>{localStorage.setItem('vertical-template-builder-'+id,el.value); build();};});
+function build(){
+  const v=Object.fromEntries(ids.map(id=>[id,document.getElementById(id).value.trim()]));
+  document.getElementById('out').textContent = `# ${v.role}\n\n## Trigger\nUse when the workflow is: ${v.workflow}\n\n## Required evidence\n${v.evidence.split('\n').map(x=>'- '+x).join('\n')}\n\n## Guardrails\n${v.guardrails.split('\n').map(x=>'- '+x).join('\n')}\n\n## Agent handoff\n1. Restate the workflow and acceptance criteria.\n2. Gather only verifiable evidence.\n3. Produce a pass/fail decision with blockers.\n4. Save reusable improvements back into the template package.\n\n## Promotion gate\nPromote to a Hermes skill/plugin only after two successful real uses and one documented failure mode.`;
+}
+build();
+</script>
+</body>
+</html>

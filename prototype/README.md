@@ -7,13 +7,15 @@ A compact kit for turning a reusable role workflow into a vertical agent templat
 
 ## How to use
 Open `role-template-card.md` and fill it against one concrete project/workflow.
+For a faster browser flow, open `vertical-template-builder.html`; it saves inputs locally and generates a copyable role card with trigger, evidence, guardrails, handoff steps, and promotion gate.
 
 ## Worked example
 
 - [[Worked Example - Mission Control Release QA Agent]] — fills the role-template card for a release QA vertical agent, including inputs, allowed tools, out-of-bounds actions, human review gate, and launch wedge.
 - [[Release QA Scorecard Checklist]] — copyable 30-point release QA checklist/rubric for turning the worked example into an evidence-backed live run.
+- `vertical-template-builder.html` — interactive local-first builder for creating new vertical agent template cards without editing markdown by hand.
 
 ## Next iteration ideas
 - Add scoring rubric. ✅ Done with [[Release QA Scorecard Checklist]].
-- Add an HTML checklist view.
+- Add an HTML checklist view. ✅ Done with `vertical-template-builder.html`.
 - Link one completed example back into the package note. ✅ Done with the Mission Control release QA example.
