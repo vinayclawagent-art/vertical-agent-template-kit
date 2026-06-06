@@ -4,8 +4,8 @@ status: active
 package: "[[Vertical Agent Template Kit]]"
 github_repo: "https://github.com/vinayclawagent-art/vertical-agent-template-kit"
 cadence: nightly
-last_improved: 2026-06-04
-next_focus: convert the markdown prototype into a small interactive HTML checklist if usage repeats
+last_improved: 2026-06-06
+next_focus: run the Customer Onboarding Agent role card against one real onboarding workflow and attach the filled evidence checklist
 tags: [improvement-loop, x-artifact-factory, agent-workflows]
 ---
 
@@ -18,7 +18,9 @@ Turn [[Codex Role Plugins as Vertical Agent Templates]] into a reusable, inspect
 - 2026-06-04: Created package, markdown prototype, skill draft, and repo mirror.
 - 2026-06-04: Added [[../Prototypes/Vertical Agent Template Kit/Worked Example - Mission Control Release QA Agent|Worked Example - Mission Control Release QA Agent]] to ground the vertical-template card in a real Mission Control workflow.
 - 2026-06-04: Added [[../Prototypes/Vertical Agent Template Kit/Release QA Scorecard Checklist|Release QA Scorecard Checklist]] so the worked example can be copied into a live release QA run with evidence scoring.
+- 2026-06-06: Added [[../Prototypes/Vertical Agent Template Kit/vertical-template-builder.html|vertical-template-builder.html]], a local-first browser builder that outputs a reusable role card with evidence and guardrail fields.
+- 2026-06-06: Added [[../Prototypes/Vertical Agent Template Kit/Non-Release Role Card Evidence - Customer Onboarding Agent|Non-Release Role Card Evidence - Customer Onboarding Agent]] as the first non-release role card template, with validation gated on a real onboarding trial.
 
 ## Next focus
-- Convert the markdown prototype into a small interactive HTML checklist if usage repeats.
+- Run the Customer Onboarding Agent role card against one real onboarding workflow and attach source context, output, review notes, and reuse decision.
 - If the template gets reused, promote or merge the skill draft.

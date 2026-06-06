@@ -14,8 +14,10 @@ For a faster browser flow, open `vertical-template-builder.html`; it saves input
 - [[Worked Example - Mission Control Release QA Agent]] — fills the role-template card for a release QA vertical agent, including inputs, allowed tools, out-of-bounds actions, human review gate, and launch wedge.
 - [[Release QA Scorecard Checklist]] — copyable 30-point release QA checklist/rubric for turning the worked example into an evidence-backed live run.
 - `vertical-template-builder.html` — interactive local-first builder for creating new vertical agent template cards without editing markdown by hand.
+- [[Non-Release Role Card Evidence - Customer Onboarding Agent]] — a prepared non-release vertical-agent card with explicit evidence requirements before it can be treated as validated.
 
 ## Next iteration ideas
 - Add scoring rubric. ✅ Done with [[Release QA Scorecard Checklist]].
 - Add an HTML checklist view. ✅ Done with `vertical-template-builder.html`.
 - Link one completed example back into the package note. ✅ Done with the Mission Control release QA example.
+- Archive one non-release role card from the interactive builder. ✅ Prepared via [[Non-Release Role Card Evidence - Customer Onboarding Agent]]; still needs a real customer-onboarding trial before promotion.

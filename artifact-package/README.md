@@ -26,6 +26,7 @@ OpenAI validating role-specific Codex plugins is a strong product signal for pac
 - Interactive builder: [[Vertical Agent Template Kit/vertical-template-builder.html]]
 - Worked example: [[Vertical Agent Template Kit/Worked Example - Mission Control Release QA Agent]]
 - Scorecard: [[Vertical Agent Template Kit/Release QA Scorecard Checklist]]
+- Non-release evidence card: [[Vertical Agent Template Kit/Non-Release Role Card Evidence - Customer Onboarding Agent]]
 - Infographic: [[Vertical Agent Template Kit Workflow]]
 - Skill draft: [[vertical-agent-template-kit/SKILL]]
 - Improvement loop: [[Vertical Agent Template Kit Loop]]
@@ -46,6 +47,7 @@ https://github.com/vinayclawagent-art/vertical-agent-template-kit
 - Add one worked example from an active VinClawLabs project. ✅ Done with [[Vertical Agent Template Kit/Worked Example - Mission Control Release QA Agent]].
 - Convert the release QA worked example into a copyable scorecard/checklist. ✅ Done with [[Vertical Agent Template Kit/Release QA Scorecard Checklist]].
 - Convert the markdown prototype into a small interactive HTML checklist if usage repeats. ✅ Done with [[Vertical Agent Template Kit/vertical-template-builder.html]].
+- Use the interactive builder for one non-release vertical agent and archive the generated role card as evidence. ✅ Prepared with [[Vertical Agent Template Kit/Non-Release Role Card Evidence - Customer Onboarding Agent]]; awaits a real customer-onboarding trial.
 - Decide whether to merge the skill draft into an existing skill or promote it.
 
 ## Change log
@@ -53,3 +55,4 @@ https://github.com/vinayclawagent-art/vertical-agent-template-kit
 - 2026-06-04: Added the Mission Control release QA agent worked example as the first concrete vertical template fill-in.
 - 2026-06-04: Added a copyable Release QA Scorecard Checklist with a 30-point rubric and human-gate safety criteria.
 - 2026-06-06: Added `vertical-template-builder.html`, a local-first browser builder for copyable vertical agent role cards.
+- 2026-06-06: Added a non-release Customer Onboarding Agent evidence card so the builder has a concrete next-trial target without claiming unrun proof.
