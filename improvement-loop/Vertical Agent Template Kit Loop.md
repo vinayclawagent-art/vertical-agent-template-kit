@@ -29,4 +29,4 @@ Turn [[Codex Role Plugins as Vertical Agent Templates]] into a reusable, inspect
 
 
 ## 2026-06-08 improvement
-- Added [[../Prototypes/vertical-agent-template-kit/Customer Onboarding Operator Trial Packet|Customer Onboarding Operator Trial Packet]] to sequence the existing checklist/evidence/decision artifacts into one operator-ready real-trial packet. Prepared only; no validation proof claimed.
+- Added [[../Prototypes/Vertical Agent Template Kit/Customer Onboarding Operator Trial Packet|Customer Onboarding Operator Trial Packet]] to sequence the existing checklist/evidence/decision artifacts into one operator-ready real-trial packet. Prepared only; no validation proof claimed.
