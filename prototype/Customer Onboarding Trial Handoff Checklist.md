@@ -50,6 +50,6 @@ Decision rationale:
 
 - [ ] Update [[Customer Onboarding Trial Packet]] with source-backed evidence.
 - [ ] Update [[Non-Release Role Card Evidence - Customer Onboarding Agent]] with the actual role-card result.
-- [ ] Add one sentence to [[../Generated-Packages/Vertical Agent Template Kit/README|package changelog]] summarizing the decision, not just the activity.
-- [ ] Update [[../Improvement-Loops/Vertical Agent Template Kit Loop|improvement loop]] `next_focus` based on the selected gate.
+- [ ] Add one sentence to [[../../Generated-Packages/Vertical Agent Template Kit/README|package changelog]] summarizing the decision, not just the activity.
+- [ ] Update [[../../Improvement-Loops/Vertical Agent Template Kit Loop|improvement loop]] `next_focus` based on the selected gate.
 - [ ] If promoted, revisit the skill draft; if not, keep it as a draft and record why.
