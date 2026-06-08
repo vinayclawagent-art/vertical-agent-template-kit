@@ -4,7 +4,7 @@ status: active
 package: "[[Vertical Agent Template Kit]]"
 github_repo: "https://github.com/vinayclawagent-art/vertical-agent-template-kit"
 cadence: nightly
-last_improved: 2026-06-07
+last_improved: 2026-06-08
 next_focus: use the Customer Onboarding Trial Handoff Checklist during one real onboarding workflow, then fill the packet and record the promote / pilot-only / iterate / retire decision with source-backed evidence
 tags: [improvement-loop, x-artifact-factory, agent-workflows]
 ---
@@ -26,3 +26,7 @@ Turn [[Codex Role Plugins as Vertical Agent Templates]] into a reusable, inspect
 ## Next focus
 - Use the Customer Onboarding Trial Handoff Checklist during one real onboarding workflow, then fill the packet with source context, generated output, review notes, and reuse decision.
 - If the template gets reused, promote or merge the skill draft.
+
+
+## 2026-06-08 improvement
+- Added [[../Prototypes/vertical-agent-template-kit/Customer Onboarding Operator Trial Packet|Customer Onboarding Operator Trial Packet]] to sequence the existing checklist/evidence/decision artifacts into one operator-ready real-trial packet. Prepared only; no validation proof claimed.
