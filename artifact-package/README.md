@@ -28,6 +28,7 @@ OpenAI validating role-specific Codex plugins is a strong product signal for pac
 - Scorecard: [[Vertical Agent Template Kit/Release QA Scorecard Checklist]]
 - Non-release evidence card: [[Vertical Agent Template Kit/Non-Release Role Card Evidence - Customer Onboarding Agent]]
 - Trial packet: [[Vertical Agent Template Kit/Customer Onboarding Trial Packet]]
+- Trial handoff checklist: [[Vertical Agent Template Kit/Customer Onboarding Trial Handoff Checklist]]
 - Infographic: [[Vertical Agent Template Kit Workflow]]
 - Skill draft: [[vertical-agent-template-kit/SKILL]]
 - Improvement loop: [[Vertical Agent Template Kit Loop]]
@@ -50,6 +51,7 @@ https://github.com/vinayclawagent-art/vertical-agent-template-kit
 - Convert the markdown prototype into a small interactive HTML checklist if usage repeats. ✅ Done with `vertical-template-builder.html`.
 - Use the interactive builder for one non-release vertical agent and archive the generated role card as evidence. ✅ Prepared with [[Vertical Agent Template Kit/Non-Release Role Card Evidence - Customer Onboarding Agent]]; awaits a real customer-onboarding trial.
 - Sequence the non-release customer-onboarding trial into one fillable packet before the real run. ✅ Done with [[Vertical Agent Template Kit/Customer Onboarding Trial Packet]].
+- Add a preflight/operator handoff checklist for the customer-onboarding trial packet. ✅ Done with [[Vertical Agent Template Kit/Customer Onboarding Trial Handoff Checklist]].
 - Decide whether to merge the skill draft into an existing skill or promote it.
 
 ## Change log
@@ -59,3 +61,4 @@ https://github.com/vinayclawagent-art/vertical-agent-template-kit
 - 2026-06-06: Added `vertical-template-builder.html`, a local-first browser builder for copyable vertical agent role cards.
 - 2026-06-06: Added a non-release Customer Onboarding Agent evidence card so the builder has a concrete next-trial target without claiming unrun proof.
 - 2026-06-07: Added the Customer Onboarding Trial Packet to sequence the next live onboarding trial without fabricating validation evidence.
+- 2026-06-07: Added the Customer Onboarding Trial Handoff Checklist so the next real onboarding trial has preflight, capture, decision, and follow-up steps ready before validation is claimed.
