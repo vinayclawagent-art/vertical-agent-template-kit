@@ -17,6 +17,7 @@ For a faster browser flow, open `vertical-template-builder.html`; it saves input
 - [[Non-Release Role Card Evidence - Customer Onboarding Agent]] — a prepared non-release vertical-agent card with explicit evidence requirements before it can be treated as validated.
 - [[Customer Onboarding Trial Packet]] — a single ordered packet for the next real onboarding trial that sequences source context, generated outputs, review notes, and the promote / pilot-only / iterate / retire decision without claiming proof early.
 - [[Customer Onboarding Trial Handoff Checklist]] — preflight, capture, decision, and follow-up checklist that makes the next live onboarding trial executable without claiming validation before it happens.
+- [[Customer Onboarding Promotion Decision Card]] — post-packet decision gate that turns source-backed onboarding evidence into exactly one promote / pilot-only / iterate / retire outcome before changing README, builder, or skill wording.
 
 ## Next iteration ideas
 - Add scoring rubric. ✅ Done with [[Release QA Scorecard Checklist]].
@@ -25,3 +26,4 @@ For a faster browser flow, open `vertical-template-builder.html`; it saves input
 - Archive one non-release role card from the interactive builder. ✅ Prepared via [[Non-Release Role Card Evidence - Customer Onboarding Agent]]; still needs a real customer-onboarding trial before promotion.
 - Bundle the non-release role card into a canonical live-trial packet. ✅ Prepared via [[Customer Onboarding Trial Packet]]; fill it during the next real onboarding workflow.
 - Add an operator handoff checklist for the trial packet. ✅ Prepared via [[Customer Onboarding Trial Handoff Checklist]]; use it immediately before/during the next real onboarding workflow.
+- Add a source-backed promotion gate after the trial packet. ✅ Prepared via [[Customer Onboarding Promotion Decision Card]]; complete it only after the real packet contains evidence.
